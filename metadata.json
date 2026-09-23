@@ -1,0 +1,6 @@
+{
+  "name": "Laboratorio de Análisis Semántico - Compiladores",
+  "description": "Laboratorio interactivo de Teoría de Compiladores para el Análisis Semántico, Pipeline Front-End, Tabla de Símbolos y Atributos de Knuth por Vanessa Cruz Penna y Luis Fernando Coste Contreras.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

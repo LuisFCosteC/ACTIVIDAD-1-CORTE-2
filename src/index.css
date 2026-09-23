@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Fira Code", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-display: "Plus Jakarta Sans", "Inter", ui-sans-serif, sans-serif;
+}
+
+html {
+  color-scheme: dark;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(71 85 105) transparent;
+}
+
+/* React Flow sobre fondo slate */
+.react-flow {
+  --xy-background-color: transparent;
+  --xy-controls-button-background-color: rgb(30 41 59);
+  --xy-controls-button-background-color-hover: rgb(51 65 85);
+  --xy-controls-button-color: rgb(203 213 225);
+  --xy-controls-button-border-color: rgb(51 65 85);
+  --xy-attribution-background-color: rgb(15 23 42 / 0.7);
+}
+.react-flow__attribution a {
+  color: rgb(100 116 139);
+}
+
+.editor-layer {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  line-height: 24px;
+  tab-size: 2;
+  font-variant-ligatures: none;
+}
